@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dividers</title>
+<meta name="author" content="Sepera_okeq">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="addons.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+
+<!-- JavaScript,не трогать-->
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="transition.min.js"></script>
+<script src="collapse.min.js"></script>
+<script src="dropdown.min.js"></script>
+<!-- JavaScript,не трогать-->
+</head>
+<body>
+   <div style="overflow:hidden">
+      <div id="container">
+      </div>
+      <div id="wb_header">
+         <div id="header">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_Main" style="display:inline-block;width:100%;z-index:0;vertical-align:top;">
+                     <ul id="Main">
+					    <!--Хуйня какая-то с словом Выборы-->
+                        <li><a href="#home">&#1042;&#1099;&#1073;&#1086;&#1088;&#1099;</a></li>
+						<!--Нормально не хочет,придется так.-->
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-2">
+			   <!--Меню_выборы.-->
+                  <div id="wb_Menu_vibors" style="display:inline-block;width:100%;z-index:1001;">
+                     <div id="Menu_vibors" class="Menu_vibors" style="width:100%;height:auto !important;">
+                        <div class="container">
+                           <div class="navbar-header">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".Menu_vibors-navbar-collapse">
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                              </button>
+                           </div>
+						   <!-- Меню -->
+                           <div class="Menu_vibors-navbar-collapse collapse">
+                              <ul class="nav navbar-nav">
+                                 <li class="">
+                                    <a href="#home">Домашняя</a>
+                                 </li>
+                                 <li class="">
+                                    <a href="#FAQ">FAQ</a>
+                                 </li>
+                                 <li class="">
+                                    <a href="#tablo_vibors">Текущие результаты</a>
+                                 </li>
+                                 <li class="">
+                                    <a href="#vibors_zaiavka">Участие в выборах</a>
+                                 </li>
+                                 <li class="">
+                                    <a href="#questions">Ссылки</a>
+                                 </li>
+                              </ul>
+                           </div>
+						    <!--end-->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	   <!--Home баннер.-->
+      <div id="wb_home">
+         <div id="home-overlay"></div>
+         <div id="home">
+            <div class="col-1">
+               <div id="wb_Main_text_home">
+                  <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Голосование не определяет хода событий. Голосование решает, кто будет определять ход событий.</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:16px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;"><strong>Джордж Уилл</strong></span>
+               </div>
+               <div id="wb_Shape_strelka" style="display:inline-block;width:30px;height:40px;z-index:3;position:relative;">
+                  <a href="./vibors_ier.html#FAQ"><img class="hover" src="images/img0001_hover.png" alt="" style="border-width:0;width:30px;height:40px;"><span class="default"><img src="images/img0001.png" id="Shape_strelka" alt="" style="width:30px;height:40px;"></span></a>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--end.-->
+	  
+	  
+	  <!--FAQ-->
+      <div id="wb_FAQ" class="diagonal">
+         <div id="FAQ-overlay"></div>
+         <div id="FAQ">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_faq-text">
+                     <span style="color:#000000;font-family:Arial;font-size:32px;line-height:36px;"><strong>Что за сайт?</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><br></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:18px;"><br></span><span style="color:#000000;font-family:Arial;font-size:16px;line-height:18px;">Главный сайт выборов в различные государственные органы Эмбронской республики,такие как: выборы в суд,<br>парламент и конечно пост президента ЭР.</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--end faq.-->
+	  <!--Update Time-->
+      <div id="wb_features" class="triangle">
+         <div id="features">
+            <div class="row">
+               <div class="col-1">
+                  <div class="col-1-padding">
+                     <div id="wb_js-update_vibors" style="display:inline-block;width:100%;z-index:5;">
+                          <script src="index.js"></script>  
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--end.-->
+	  <!--Актуальная информация.-->
+      <div id="wb_actyal_banner">
+         <div id="actyal_banner-overlay"></div>
+         <div id="actyal_banner">
+            <div class="col-1">
+               <div id="wb_actyal_text_banner">
+                  <span style="color:#FFFFFF;font-family:Arial;font-size:32px;line-height:36px;"><strong>Актуальная информация</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;">Благодаря новым технологиям и сотрудничеству МИТ и Министрества Юнистици доступен <br>даннный государственный ресурс,где можно узнать предварительные и итоговые итоги выборов!</span>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--end.-->
+	  
+	  <!--Информация о статистике на выборах.-->
+      <div id="wb_tablo_vibors" class="triangle-top">
+         <div id="tablo_vibors">
+            <div class="row">
+               <div class="col-1">
+                  <div class="col-1-padding">
+                     <iframe name="frame_cyd" id="frame_cyd" src="https://р1"></iframe>
+                     <div id="wb_Text_line">
+                        <span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
+                     </div>
+                     <div id="wb_Text_cyd">
+                        <span style="color:#000000;font-family:Georgia;font-size:13px;line-height:64px;"><strong>Выборы в Суд ЭР<br></strong></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div class="col-2-padding">
+                     <iframe name="frame_parlament" id="frame_parlament" src=""></iframe>
+                     <div id="wb_Text_parlament">
+                        <span style="color:#000000;font-family:Georgia;font-size:13px;line-height:64px;"><strong>Выборы в Парламент ЭР<br></strong></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="col-3-padding">
+                     <iframe name="frame_president" id="frame_president" src=""></iframe>
+                     <div id="wb_Text_president">
+                        <span style="color:#000000;font-family:Georgia;font-size:13px;line-height:64px;"><strong>Выборы на пост Президента ЭР<br></strong></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="wb_tablo_vibors_2" class="triangles">
+         <div id="tablo_vibors_2">
+            <div class="row">
+               <div class="col-1">
+                  <div class="col-1-padding">
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div class="col-2-padding">
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="col-3-padding">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--end tablo выборов - секции 1 и 2-->
+	  <!--interface-->
+      <div id="wb_interface-ydobm">
+         <div id="interface-ydobm-overlay"></div>
+         <div id="interface-ydobm">
+            <div class="col-1">
+               <div id="wb_text_interface">
+                  <span style="color:#FFFFFF;font-family:Arial;font-size:48px;line-height:56px;"><strong>Удобный интерфейс</strong></span>
+               </div>
+               <div id="wb_Text6">
+                  <span style="color:#FFFFFF;">Более чем целое нихуя задохов на сайт! Прекрасная статистика посещений сайта.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--intreface end-->
+	  
+	  <!--заявка на выборы-->
+      <div id="wb_vibors_zaiavka" class="triangles-top">
+         <div id="vibors_zaiavka">
+            <div class="row">
+               <div class="col-1">
+                  <div class="col-1-padding">
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div class="col-2-padding">
+                     <div id="wb_Text_vibors_xocy">
+                        <span style="color:#000000;font-family:Arial;font-size:32px;line-height:36px;"><strong>Хочу участвовать в выборах!<br></strong></span><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><br></span><span style="color:#000000;font-family:Arial;font-size:15px;line-height:16px;">Примичание : Вам необходимо достичь нужного уровня для подачи заявки и выполнить другие требования для подачи заявки</span>
+                     </div>
+                     <a id="Button_discord_req" href="https://discord.gg/GnUnRyf" style="display:inline-block;width:138px;height:37px;z-index:17;">Перейти</a>
+                  </div>
+               </div>
+               <div class="col-3">
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--end-->
+	  
+	  <!--stably-->
+      <div id="wb_stably-banner">
+         <div id="stably-banner-overlay"></div>
+         <div id="stably-banner">
+            <div class="col-1">
+               <div id="wb_stably">
+                  <span style="color:#FFFFFF;font-family:Arial;font-size:43px;line-height:49px;"><strong>Какова стабильность данного сайта?</strong></span>
+               </div>
+               <div id="blog_tech" style="overflow:hidden;">
+                  <div class="blogitem">
+                     <div class="blogquote">
+                        <div class="bloguser">
+    
+                           <div class="blogthumb"><a href="images/vendor_woman.png"><img alt="&#1048;&#1089;&#1090;&#1086;&#1095;&#1085;&#1080;&#1082;" src="images/vendor_woman.png"></a></div>
+                           <div class="blogsubject">Источник</div>
+  
+                        </div>
+  
+                        <div class="bloginfo">
+    
+                           <div class="blogcontent"><span style="color:#000000;">Мама я гей,папа я гей</span>
+                           </div>
+    
+                           <div class="blogdate">Wednesday, June 03, 2020</div>
+  
+                        </div>
+
+                     </div>
+                  </div>
+                  <div class="clearfix visible-col1"></div>
+                  <div class="blogitem">
+                     <div class="blogquote">
+                        <div class="bloguser">
+    
+                           <div class="blogthumb"><a href="images/vendor_man.png"><img alt="Sepera_okeq        " src="images/vendor_man.png"></a></div>
+                           <div class="blogsubject">Sepera_okeq        </div>
+  
+                        </div>
+  
+                        <div class="bloginfo">
+    
+                           <div class="blogcontent"><span style="color:#000000;">че?</span>
+                           </div>
+    
+                           <div class="blogdate">Wednesday, June 03, 2020</div>
+  
+                        </div>
+
+                     </div>
+                  </div>
+                  <div class="clearfix visible-col1"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  	  <!--questions-->
+      <div id="wb_questions" class="curve">
+         <div id="questions">
+            <div class="row">
+               <div class="col-1">
+                  <div class="col-1-padding">
+                     <div id="wb_Text_Github">
+                        <span style="color:#000000;font-family:'Arial Black';font-size:35px;">Github</span>
+                     </div>
+                     <div id="wb_Github" style="display:inline-block;width:212px;height:212px;z-index:21;">
+                        <a href="https://github.com/Embronian-IT-Industry/ElectionsPageIER/issues"><img src="https://cdn-images-1.listennotes.com/podcasts/github-community-cast-github-opbqtExf1iR.1400x1400.jpg" id="Github" alt=""></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div class="col-2-padding">
+                     <div id="wb_Text_quest">
+                        <span style="color:#000000;font-family:Arial;font-size:32px;line-height:36px;"><strong>Остались вопросы?<br></strong></span><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"><br></span><span style="color:#000000;font-family:Georgia;font-size:15px;line-height:16px;">Можешь обратится в данных ресурсах -<br>в репозитории Github'a или личный вопрос в Discord</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div id="wb_Text_Discord">
+                     <span style="color:#000000;font-family:'Arial Black';font-size:35px;">Discord</span>
+                  </div>
+                  <div id="wb_Discord" style="display:inline-block;width:100%;height:auto;z-index:24;">
+                     <a href="https://discord.gg/GnUnRyf"><img src="https://static.goodgame.ru/files/logotypes/ch_140584_JmYj.png" id="Discord" alt=""></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  	  <!-- end footer-->
+      <div id="wb_footer" class="zigzag">
+         <div id="footer">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_VK-icon" style="display:inline-block;width:38px;height:48px;text-align:center;z-index:25;">
+                     <a href="https://vk.com/sepera_okeq" target="_blank"><div id="VK-icon"><i class="fa fa-vk"></i></div></a>
+                  </div>
+                  <div id="wb_Copyright">
+                     <span style="color:#FFFFFF;">Copyright © 2020 Создано при поддержке Sepera_okeq.&nbsp; All Rights Reserved</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="StickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:28;">
+         <div id="wb_up-arrow" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:27;">
+            <a href="./vibors_ier.html#home"><div id="up-arrow"><i class="fa fa-angle-up"></i></div></a></div>
+      </div>
+   </div>
+      <!-- By sepera_okeq-->
+   </body>
+</html>
