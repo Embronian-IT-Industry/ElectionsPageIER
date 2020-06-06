@@ -2,15 +2,15 @@ am4core.useTheme(am4themes_animated);
 
 var chart = am4core.createFromConfig({
   "data": [{
-    party: "@Hollow Hornet#6487",
+    party: "Pikanga#6487",
     litres: 32
   },
   {
-    party: "@X[а]rAktт€рNuИ_A₽[0]MaТ#5454",
+    party: "серега#5454",
     litres: 12
   },
   {
-    party: "@Kataklizm13#0018",
+    party: "Kataklizm13#0018",
     litres: 8
   }/*,
   {
