@@ -3,7 +3,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.createFromConfig({
   "data": [{
     cydia: "Grogcheese#0699",
-    litres: 12
+    litres: 13
   },
   {
     cydia: "Протас#9072",
