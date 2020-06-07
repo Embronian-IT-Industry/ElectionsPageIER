@@ -1,26 +1,28 @@
 am4core.useTheme(am4themes_animated);
 
-var chart = am4core.createFromConfig({
-  "data": [{
-    cydia: "Самогонщик",
-    litres: 25
-  },
+var chart = am4core.createFromConfig(
   {
-    cydia: "Сидорович",
-    litres: 22
-  },
-  {
-    cydia: "Симонов",
-    litres: 29
-  },
-  {
-    cydia: "Дейрон",
-    litres: 18
-  },
-  {
-    cydia: "Дорога",
-    litres: 14
-  }/*,
+    data: [
+      {
+        cydia: "Самогонщик",
+        litres: 25,
+      },
+      {
+        cydia: "Сидорович",
+        litres: 22,
+      },
+      {
+        cydia: "Симонов",
+        litres: 29,
+      },
+      {
+        cydia: "Дейрон",
+        litres: 18,
+      },
+      {
+        cydia: "Дорога",
+        litres: 14,
+      } /*,
   {
     cydia: "Хаус",
     litres: 15
@@ -38,14 +40,20 @@ var chart = am4core.createFromConfig({
     cydia: "The Netherlands",
     litres: 50
   
-  }*/ ],
-  "legend": {},
-  "innerRadius": "40%",
-  "series": [{
-    "type": "PieSeries3D",
-    "dataFields": {
-      "value": "litres",
-      "category": "cydia"
-    }
-  }]
-}, "chartdiv", "PieChart3D");
+  }*/,
+    ],
+    legend: {},
+    innerRadius: "40%",
+    series: [
+      {
+        type: "PieSeries3D",
+        dataFields: {
+          value: "litres",
+          category: "cydia",
+        },
+      },
+    ],
+  },
+  "chartdiv",
+  "PieChart3D"
+);
