@@ -2,17 +2,17 @@ am4core.useTheme(am4themes_animated);
 
 var chart = am4core.createFromConfig({
   "data": [{
-    party: "SarcasticCat",
-    litres: 6
-  },
-  {
-    party: "Вальхалла",
-    litres: 1
-  },
-  {
-    party: "Mr.House",
+    party: "Pikanga#6487",
     litres: 32
   },
+  {
+    party: "серега#5454",
+    litres: 12
+  },
+  {
+    party: "Kataklizm13#0018",
+    litres: 8
+  }/*,
   {
     party: "Али-Ага Шихлинский",
     litres: 6
@@ -29,7 +29,6 @@ var chart = am4core.createFromConfig({
     party: "Брак",
     litres: 13
   }
-  /*
   ,
   {
     party: "The Netherlands",

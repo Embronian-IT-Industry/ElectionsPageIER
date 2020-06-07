@@ -2,13 +2,13 @@ am4core.useTheme(am4themes_animated);
 
 var chart = am4core.createFromConfig({
   "data": [{
-    cydia: "Самогонщик",
-    litres: 25
+    cydia: "Grogcheese#0699",
+    litres: 13
   },
   {
-    cydia: "Сидорович",
-    litres: 22
-  },
+    cydia: "Протас#9072",
+    litres: 18
+  }/*,
   {
     cydia: "Симонов",
     litres: 29
@@ -20,7 +20,7 @@ var chart = am4core.createFromConfig({
   {
     cydia: "Дорога",
     litres: 14
-  }/*,
+  },
   {
     cydia: "Хаус",
     litres: 15
